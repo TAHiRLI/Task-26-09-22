@@ -1,0 +1,159 @@
+/* Globals */
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15vh;
+  justify-content: space-evenly;
+  margin-top: 120px;
+  padding-top: 40px;
+  margin-left: 15%;
+}
+button {
+  cursor: pointer;
+}
+button:hover{
+
+    background-color: hsla(0, 0%, 53.3%, 0.2);
+
+}
+
+
+/*================= */
+
+/* Navbar */
+
+nav {
+  padding: 0 2%;
+  top: 0;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid hsla(0, 0%, 53.3%, 0.2);
+}
+nav input {
+  top: 0;
+  border: 0.5px solid silver;
+  padding: 6px 20px;
+}
+.bar {
+  font-size: 30px;
+}
+.search-icon {
+  font-size: 30px;
+}
+.mic {
+  font-size: 25px;
+  padding: 5px 8px ;
+  border-radius: 50%;
+}
+.sign-in {
+  font-size: 16px;
+  border: 1px solid blue;
+  color: blue;
+  padding: 8px 20px;
+}
+.sign-in i {
+  font-size: 20px;
+}
+/*================= */
+
+
+/* Aside */
+aside {
+    overflow: auto;
+   
+  top: 60px;
+  height: 100vh;
+}
+.side-icon{
+    display: inline-block;
+    margin:  0 20px;
+    font-size: 28px;
+}
+aside li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 5vh;
+}
+aside ul:first-child li:first-child{
+    background-color: hsla(0, 0%, 53.3%, 0.2);
+}
+aside li:hover{
+    background-color: #f9f9f9;
+}
+
+aside hr{
+    margin: 20px 0;
+    border: 1px solid hsla(0, 0%, 53.3%, 0.2);
+}
+
+aside::-webkit-scrollbar{
+    width: 7px;
+    background-color: white;
+}
+aside::-webkit-scrollbar-thumb{
+    
+    border-radius: 10px;
+    background-color:gray;
+}
+
+
+
+/*================= */
+
+
+
+/* Topics */
+.topics {
+  top: 60px;
+  overflow: hidden;
+  align-items: center;
+  margin-left: 15%;
+  height: 60px;
+  font-size: 14px;
+  border-bottom: 0.5px solid hsla(0, 0%, 53.3%, 0.2);
+}
+.topic {
+ border: 1px solid hsla(0, 0%, 53.3%, 0.2);
+  cursor: pointer;
+  margin-left: 1%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background: #f9f9f9;
+}
+.topic:hover{
+    background-color: hsla(0, 0%, 53.3%, 0.2);
+}
+/*================= */
+
+/* video  */
+.video {
+  cursor: pointer;
+  height: 20vh;
+}
+.account-photo {
+  width: 60%;
+  border-radius: 50%;
+}
+.thumb-nail {
+  width: 80;
+  height: 100%;
+}
+.vid-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.vid-info {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/*================= */
