@@ -13,6 +13,8 @@ main {
   margin-left: 15%;
 }
 button {
+  transition: 0.5s;
+  
   cursor: pointer;
 }
 button:hover{
@@ -76,11 +78,13 @@ aside {
     font-size: 28px;
 }
 aside li{
+  transition: 0.5s;
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5px;
     height: 5vh;
+    font-size: 14 px;
 }
 aside ul:first-child li:first-child{
     background-color: hsla(0, 0%, 53.3%, 0.2);
@@ -112,6 +116,7 @@ aside::-webkit-scrollbar-thumb{
 
 /* Topics */
 .topics {
+
   top: 60px;
   overflow: hidden;
   align-items: center;
@@ -121,6 +126,7 @@ aside::-webkit-scrollbar-thumb{
   border-bottom: 0.5px solid hsla(0, 0%, 53.3%, 0.2);
 }
 .topic {
+  transition: 0.5s;
  border: 1px solid hsla(0, 0%, 53.3%, 0.2);
   cursor: pointer;
   margin-left: 1%;
@@ -128,6 +134,9 @@ aside::-webkit-scrollbar-thumb{
   padding: 0.5rem 1rem;
   border-radius: 2rem;
   background: #f9f9f9;
+}
+.topic:first-child{
+  background-color: hsla(0, 0%, 53.3%, 0.2);
 }
 .topic:hover{
     background-color: hsla(0, 0%, 53.3%, 0.2);
